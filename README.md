@@ -9,8 +9,7 @@ This project is a responsive webpage built using HTML, CSS, and JavaScript. It s
 3. [Usage](#usage)
 4. [Technologies](#technologies)
 5. [Structure](#structure)
-6. [Screenshots](#screenshots)
-7. [License](#license)
+
 
 ## Features
 
