@@ -42,4 +42,14 @@ CSS3: Styling the webpage for a modern, responsive design.
 FontAwesome: Used for icons.
 JavaScript: For navigation interactivity.
 
-## 
+## structure
+├── index.html         # Main HTML file
+├── styles.css         # CSS file for styling the webpage
+├── logo.png           # Logo image
+├── sound-frecuency.jpg# Image used in 'What we do' section
+├── video.jpg          # Image used in 'What we do' section
+├── music.jpg          # Image used in 'What we do' section
+├── hearing.jpg        # Image used in 'What we do' section
+├── a.png              # Icon used in 'Results' section
+├── background.jpg     # Background image for header section
+├── background-2.jpg   # Background image for 'Results' section
