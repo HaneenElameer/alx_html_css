@@ -4,103 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c1a9d3943a.js" crossorigin="anonymous"></script>
     <title>Headphones</title>
 </head>
 <body>
-    <header>
+    
+    <header class="header">
         <nav>
-            <img src="logo.jpg" alt="logo">
-            <ul>
-                <li><a href="#">what we do</a></li>
-                <li><a href="#">our results</a></li>
-                <li><a href="#">contact us</a></li>
-            </ul>
+            <img src="logo.png" alt="logo">
+            <div class="nav-links">
+                <i class="fa-solid fa-xmark"></i>
+                <ul>
+                    <li><a href="#">what we do</a></li>
+                    <li><a href="#">our results</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="text-box">
             <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
             <p>Lorem ipsum dolor set amet Lorem ipsum dolor set</p>
-            <button type="submit">CALL TO ACTION</button>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dolorem quidem, recusandae pariatur optio saepe nisi quia, deserunt quod, enim tempora adipisci sint magni voluptatum explicabo et eveniet fuga laudantium!</p>
+            <button class="btn" type="submit">CALL TO ACTION</button>
+            <p class="space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </section>
-        <section>
+        <section class="what">
             <h1>What we do...</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi voluptate architecto, perspiciatis veniam deserunt, dolorum dolor at ipsa et a hic quo esse facilis voluptates doloribus ipsam consectetur. Iure!</p>
-            <div>
-                <div>
+            <div class="row">
+                <div class="icon-col">
                     <img src="sound-frecuency.jpg" alt="sound icon">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor set amet,<br>consectetur adipisicing elit</p>
                 </div>
-                <div>
+                <div class="icon-col">
                     <img src="video.jpg" alt="video icon">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor set amet,<br>consectetur adipisicing elit</p>
                 </div>
-                <div>
+                <div class="icon-col">
                     <img src="music.jpg" alt="music icon">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor set amet,<br>consectetur adipisicing elit</p>
                 </div>
-                <div>
+                <div class="icon-col">
                     <img src="hearing.jpg" alt="hearing icon">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor set amet,<br>consectetur adipisicing elit</p>
                 </div>
             </div>
         </section>
-        <section>
-            <h1>What we do...</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi voluptate architecto, perspiciatis veniam deserunt, dolorum dolor at ipsa et a hic quo esse facilis voluptates doloribus ipsam consectetur. Iure!</p>
-            <div class="image-container">
-                <img src="Polygon Copy.jpg" alt="polygon icon">
-                <div>
-                    <h3>+2%</h3>
-                    <p>lorem ipsum dolor</p>
+        <section class="results">
+            <h1>Our results speak for themselves</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>            <div class="row">
+                <div class="results-col">
+                    <img src="a.png" alt="polygon icon">
+                    <div class="text-overlay">
+                        <h3>+2%</h3>
+                        <p>lorem ipsum dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="image-container">
-                <img src="Polygon Copy.jpg" alt="polygon icon">
-                <div>
-                    <h3>+2%</h3>
-                    <p>lorem ipsum dolor</p>
+                <div class="results-col">
+                    <img src="a.png" alt="polygon icon">
+                    <div class="text-overlay">
+                        <h3>+2%</h3>
+                        <p>lorem ipsum dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="image-container">
-                <img src="Polygon Copy.jpg" alt="polygon icon">
-                <div>
-                    <h3>+2%</h3>
-                    <p>lorem ipsum dolor</p>
+                <div class="results-col">
+                    <img src="a.png" alt="polygon icon">
+                    <div class="text-overlay">
+                        <h3>+2%</h3>
+                        <p>lorem ipsum dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="image-container">
-                <img src="Polygon Copy.jpg" alt="polygon icon">
-                <div>
-                    <h3>+2%</h3>
-                    <p>lorem ipsum dolor</p>
+                <div class="results-col">
+                <img src="a.png" alt="polygon icon">
+                    <div class="text-overlay">
+                        <h3>+2%</h3>
+                        <p>lorem ipsum dolor</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="contact">
             <h1>Contact us</h1>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="Name">
-                <label for="email">Email</label>
-                <input type="email" name="Email">
-                <label for="Your message">Your message</label>
-                <input type="text" name="Your message">
+            <div class="info">
+                <label class="lab" for="name">Name</label>
+                <input class="in" type="text" name="Name">
+                <label class="lab" for="email">Email</label>
+                <input class="in" type="email" name="Email">
+                <label class="lab" for="Your message">Your message</label>
+                <input class="in" type="text" name="Your message">
             </div>
-            <button type="submit">CALL TO ACTION</button>
+            <button class="btn" type="submit">CALL TO ACTION</button>
         </section>
     </main>
-    <footer>
-        <img src="logo.jpg" alt="LOGO">
-        <div>
-            <img src="facebook.jpg" alt="facebook">
-            <img src="twitter.jpg" alt="twitter">
-            <img src="instagram.jpg" alt="instagram">
+    <footer class="footer">
+        <img src="logo.png" alt="LOGO">
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
         </div>
         <p>&copy;headphones 2020</p>
     </footer>
