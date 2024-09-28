@@ -1,7 +1,7 @@
 # alx_html_css
 # Headphones Website
 
-This project is a responsive webpage built using HTML, CSS, and JavaScript. It showcases a fictional company that provides headphones-related services. The website has sections for "What we do", "Our results", and "Contact us", and it is designed to work well across both desktop and mobile devices.
+This project is a responsive webpage built using HTML, CSS. It showcases a fictional company that provides headphones-related services. The website has sections for "What we do", "Our results", and "Contact us", and it is designed to work well across both desktop and mobile devices.
 
 ## Table of Contents
 1. [Features](#features)
